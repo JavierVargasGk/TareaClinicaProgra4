@@ -1,23 +1,18 @@
 ﻿@model IEnumerable<TareaClinicaProgra4.Models.Virus>
 
 @{
-    Layout = null;
+    ViewData["Title"] = "Index";
 }
-
-<!DOCTYPE html>
-
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>Index</title>
-</head>
-<body>
+<h1>Index</h1>
 <p>
     <a asp-action="Create">Registrar Virus</a>
 </p>
 <table class="table">
     <thead>
         <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
             <th>
                 @Html.DisplayNameFor(model => model.Nombre)
             </th>
@@ -30,12 +25,18 @@
             <th>
                 @Html.DisplayNameFor(model => model.Contagio)
             </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Peligrosidad)
+            </th>
             <th></th>
         </tr>
     </thead>
     <tbody>
 @foreach (var item in Model) {
         <tr>
+            <td>
+                @Html.DisplayFor(modelItem=>item.Id)
+            </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Nombre)
             </td>
@@ -58,5 +59,3 @@
 }
     </tbody>
 </table>
-</body>
-</html>

@@ -15,11 +15,16 @@ public class Virus
         this.fecha = fecha;
         this.mortalidad = mortalidad;
         this.contagio = contagio;
-        peligrosidad = AsignarPeligrosidad(mortalidad, contagio);
+        this.peligrosidad = AsignarPeligrosidad(mortalidad, contagio);
     }
 
     public Virus()
     {
+        this.id = 0;
+        this.nombre = "";
+        this.mortalidad = 0;
+        this.contagio = 0;
+        this.peligrosidad = AsignarPeligrosidad(this.mortalidad, this.contagio);
         
     }
     public int Id { get => id; set => id = value; }
@@ -27,9 +32,9 @@ public class Virus
     public DateTime Fecha { get => fecha; set => fecha = value; }
     public int Mortalidad { get => mortalidad; set => mortalidad = value; }
     public int Contagio { get => contagio; set => contagio = value; }
-    public string Peligrosidad { get => peligrosidad;}
+    public string Peligrosidad { get => peligrosidad; set => peligrosidad = value; }
 
-    private string AsignarPeligrosidad(int mortalidad, int contagio)
+    public string AsignarPeligrosidad(int mortalidad, int contagio)
     {
         int indicePeligrosidad = mortalidad * contagio;
         if (indicePeligrosidad < 30 && indicePeligrosidad >= 1)

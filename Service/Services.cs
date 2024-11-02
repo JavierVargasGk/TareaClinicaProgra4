@@ -12,8 +12,11 @@ public class Services:DbContext
     {
         if (VirusDataBase == null)
         {
-            throw new Exception("Virus es nullo, por lo tanto no se puede registrar");
+            throw new ArgumentNullException();
         }
+
+        var thingy = model.AsignarPeligrosidad(model.Mortalidad, model.Contagio);
+        model.Peligrosidad = thingy.ToString();
         VirusDataBase.Add(model);
         SaveChanges();
     }
@@ -28,7 +31,7 @@ public class Services:DbContext
         var model = VirusDataBase.Where(x => x.Id == id).FirstOrDefault();
         if (model == null)
         {
-            throw new Exception("Virus no registrado");
+            throw new ArgumentNullException();
         }
         return model;
     }

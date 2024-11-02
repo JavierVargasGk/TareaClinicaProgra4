@@ -34,14 +34,14 @@ namespace TareaClinicaProgra4.Controllers
         {
             try
             {
-                if (ModelState.IsValid){
+                if (ModelState.IsValid) { 
                     sv.AgregarVirus(model);
                     return RedirectToAction(nameof(Index));
-                    }
+                }   
             }
             catch
             {
-                throw new Exception("Modelo Invalido");
+               
             }
 
             return View();
@@ -55,6 +55,7 @@ namespace TareaClinicaProgra4.Controllers
             {
                 var model = sv.BuscarVirus(id);
                 sv.EliminarVirus(model);
+                return RedirectToAction(nameof(Index));
             }
             catch (Exception e)
             {
