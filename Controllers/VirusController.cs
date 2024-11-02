@@ -1,14 +1,24 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using TareaClinicaProgra4.Models;
+using TareaClinicaProgra4.Service;
+
 
 namespace TareaClinicaProgra4.Controllers
 {
     public class VirusController : Controller
     {
+        private Services sv;
+
+        public VirusController()
+        {
+            sv = new Services();
+        }
         // GET: VirusController
         public ActionResult Index()
         {
-            return View();
+            var model = sv.MostrarViruses();
+            return View(model);
         }
 
         // GET: VirusController/Create
@@ -20,22 +30,37 @@ namespace TareaClinicaProgra4.Controllers
         // POST: VirusController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
+        public ActionResult Create(Virus model)
         {
             try
             {
-                return RedirectToAction(nameof(Index));
+                if (ModelState.IsValid){
+                    sv.AgregarVirus(model);
+                    return RedirectToAction(nameof(Index));
+                    }
             }
             catch
             {
-                return View();
+                throw new Exception("Modelo Invalido");
             }
+
+            return View();
         }
 
 
         // GET: VirusController/Delete/5
         public ActionResult Delete(int id)
         {
+            try
+            {
+                var model = sv.BuscarVirus(id);
+                sv.EliminarVirus(model);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                throw;
+            }
             return View();
         }
 

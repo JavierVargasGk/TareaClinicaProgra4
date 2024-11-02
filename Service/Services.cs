@@ -15,6 +15,7 @@ public class Services:DbContext
             throw new Exception("Virus es nullo, por lo tanto no se puede registrar");
         }
         VirusDataBase.Add(model);
+        SaveChanges();
     }
 
     public List<Virus> MostrarViruses()
@@ -32,9 +33,14 @@ public class Services:DbContext
         return model;
     }
 
-    public void EliminarVirus(int id)
+    public void EliminarVirus(Virus model)
     {
-        var model = BuscarVirus(id);
+        if (model == null)
+        {
+            throw new ArgumentNullException();
+        }
         VirusDataBase.Remove(model);
+        SaveChanges();
+
     }
 }

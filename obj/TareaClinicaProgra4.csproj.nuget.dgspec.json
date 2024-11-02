@@ -1,28 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "Z:\\javier On My Mac\\RiderProjects\\TareaClinicaProgra4\\TareaClinicaProgra4.csproj": {}
+    "/Users/javier/RiderProjects/TareaClinicaProgra4/TareaClinicaProgra4.csproj": {}
   },
   "projects": {
-    "Z:\\javier On My Mac\\RiderProjects\\TareaClinicaProgra4\\TareaClinicaProgra4.csproj": {
+    "/Users/javier/RiderProjects/TareaClinicaProgra4/TareaClinicaProgra4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Z:\\javier On My Mac\\RiderProjects\\TareaClinicaProgra4\\TareaClinicaProgra4.csproj",
+        "projectUniqueName": "/Users/javier/RiderProjects/TareaClinicaProgra4/TareaClinicaProgra4.csproj",
         "projectName": "TareaClinicaProgra4",
-        "projectPath": "Z:\\javier On My Mac\\RiderProjects\\TareaClinicaProgra4\\TareaClinicaProgra4.csproj",
-        "packagesPath": "C:\\Users\\Javier\\.nuget\\packages\\",
-        "outputPath": "Z:\\javier On My Mac\\RiderProjects\\TareaClinicaProgra4\\obj\\",
+        "projectPath": "/Users/javier/RiderProjects/TareaClinicaProgra4/TareaClinicaProgra4.csproj",
+        "packagesPath": "/Users/javier/.nuget/packages/",
+        "outputPath": "/Users/javier/RiderProjects/TareaClinicaProgra4/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Javier\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/javier/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,7 +36,7 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
+          "auditMode": "all"
         }
       },
       "frameworks": {
@@ -84,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.100-rc.2.24474.11/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
