@@ -27,6 +27,7 @@ public class Virus
     public DateTime Fecha { get => fecha; set => fecha = value; }
     public int Mortalidad { get => mortalidad; set => mortalidad = value; }
     public int Contagio { get => contagio; set => contagio = value; }
+    public string Peligrosidad { get => peligrosidad;}
 
     private string AsignarPeligrosidad(int mortalidad, int contagio)
     {
