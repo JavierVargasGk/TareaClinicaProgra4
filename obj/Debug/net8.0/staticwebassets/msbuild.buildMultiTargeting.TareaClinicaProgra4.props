@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/TareaClinicaProgra4.props" />
+</Project>

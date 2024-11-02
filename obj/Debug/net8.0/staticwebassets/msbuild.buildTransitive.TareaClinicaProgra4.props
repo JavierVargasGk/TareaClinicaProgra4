@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../buildMultiTargeting/TareaClinicaProgra4.props" />
+</Project>
