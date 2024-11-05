@@ -3,6 +3,13 @@
   "WorkspaceRootPath": "Z:\\javier On My Mac\\RiderProjects\\TareaClinicaProgra4\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{32B9D64F-73F7-4926-805F-82DBF8D28ED6}|TareaClinicaProgra4.csproj|z:\\javier on my mac\\riderprojects\\tareaclinicaprogra4\\views\\virus\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{32B9D64F-73F7-4926-805F-82DBF8D28ED6}|TareaClinicaProgra4.csproj|solutionrelative:views\\virus\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\8.0.403\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{32B9D64F-73F7-4926-805F-82DBF8D28ED6}|TareaClinicaProgra4.csproj|z:\\javier on my mac\\riderprojects\\tareaclinicaprogra4\\service\\services.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{32B9D64F-73F7-4926-805F-82DBF8D28ED6}|TareaClinicaProgra4.csproj|solutionrelative:service\\services.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,10 +20,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{32B9D64F-73F7-4926-805F-82DBF8D28ED6}|TareaClinicaProgra4.csproj|z:\\javier on my mac\\riderprojects\\tareaclinicaprogra4\\controllers\\viruscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{32B9D64F-73F7-4926-805F-82DBF8D28ED6}|TareaClinicaProgra4.csproj|solutionrelative:controllers\\viruscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{32B9D64F-73F7-4926-805F-82DBF8D28ED6}|TareaClinicaProgra4.csproj|z:\\javier on my mac\\riderprojects\\tareaclinicaprogra4\\views\\virus\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{32B9D64F-73F7-4926-805F-82DBF8D28ED6}|TareaClinicaProgra4.csproj|solutionrelative:views\\virus\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{32B9D64F-73F7-4926-805F-82DBF8D28ED6}|TareaClinicaProgra4.csproj|z:\\javier on my mac\\riderprojects\\tareaclinicaprogra4\\views\\virus\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -50,7 +53,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,7 +61,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
+              "Title": "Microsoft.PackageDependencyResolution.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "ViewState": "AgIAAPUAAAAAAAAAAAAMwAoBAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-11-03T03:40:06.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "HomeController.cs",
               "DocumentMoniker": "Z:\\javier On My Mac\\RiderProjects\\TareaClinicaProgra4\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
@@ -66,12 +80,11 @@
               "RelativeToolTip": "Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T23:26:12.961Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-02T23:26:12.961Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Details.cshtml",
               "DocumentMoniker": "Z:\\javier On My Mac\\RiderProjects\\TareaClinicaProgra4\\Views\\Virus\\Details.cshtml",
               "RelativeDocumentMoniker": "Views\\Virus\\Details.cshtml",
@@ -79,12 +92,11 @@
               "RelativeToolTip": "Views\\Virus\\Details.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-02T22:57:22.883Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-02T22:57:22.883Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Index.cshtml",
               "DocumentMoniker": "Z:\\javier On My Mac\\RiderProjects\\TareaClinicaProgra4\\Views\\Virus\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Virus\\Index.cshtml",
@@ -92,25 +104,24 @@
               "RelativeToolTip": "Views\\Virus\\Index.cshtml",
               "ViewState": "AgIAABwAAAAAAAAAAAAAAAsAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-02T22:50:28.964Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-02T22:50:28.964Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Create.cshtml",
               "DocumentMoniker": "Z:\\javier On My Mac\\RiderProjects\\TareaClinicaProgra4\\Views\\Virus\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\Virus\\Create.cshtml",
               "ToolTip": "Z:\\javier On My Mac\\RiderProjects\\TareaClinicaProgra4\\Views\\Virus\\Create.cshtml",
               "RelativeToolTip": "Views\\Virus\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABMAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAADcAAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-02T22:47:46.851Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "VirusController.cs",
               "DocumentMoniker": "Z:\\javier On My Mac\\RiderProjects\\TareaClinicaProgra4\\Controllers\\VirusController.cs",
               "RelativeDocumentMoniker": "Controllers\\VirusController.cs",
@@ -118,12 +129,11 @@
               "RelativeToolTip": "Controllers\\VirusController.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAADkAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T22:06:00.205Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-02T22:06:00.205Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "Z:\\javier On My Mac\\RiderProjects\\TareaClinicaProgra4\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
@@ -135,7 +145,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Configuration.cs",
               "DocumentMoniker": "Z:\\javier On My Mac\\RiderProjects\\TareaClinicaProgra4\\Migrations\\Configuration.cs",
               "RelativeDocumentMoniker": "Migrations\\Configuration.cs",
@@ -143,12 +153,11 @@
               "RelativeToolTip": "Migrations\\Configuration.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T21:50:38.791Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-02T21:50:38.791Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "appsettings.json",
               "DocumentMoniker": "Z:\\javier On My Mac\\RiderProjects\\TareaClinicaProgra4\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -160,20 +169,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Services.cs",
               "DocumentMoniker": "Z:\\javier On My Mac\\RiderProjects\\TareaClinicaProgra4\\Service\\Services.cs",
               "RelativeDocumentMoniker": "Service\\Services.cs",
               "ToolTip": "Z:\\javier On My Mac\\RiderProjects\\TareaClinicaProgra4\\Service\\Services.cs",
               "RelativeToolTip": "Service\\Services.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAwBkAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAwBQAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T21:25:48.322Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-02T21:25:48.322Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Virus.cs",
               "DocumentMoniker": "Z:\\javier On My Mac\\RiderProjects\\TareaClinicaProgra4\\Models\\Virus.cs",
               "RelativeDocumentMoniker": "Models\\Virus.cs",
@@ -181,8 +189,7 @@
               "RelativeToolTip": "Models\\Virus.cs",
               "ViewState": "AgIAACIAAAAAAAAAAAAwwB8AAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T21:23:58.91Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-02T21:23:58.91Z"
             }
           ]
         }

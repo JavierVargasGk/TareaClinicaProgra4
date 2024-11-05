@@ -28,13 +28,31 @@
                 <span asp-validation-for="Fecha" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Mortalidad" class="control-label"></label>
-                <input asp-for="Mortalidad" class="form-control" />
+                <label asp-for="Mortalidad" class="control-label"></label><br/>
+                <select asp-for="Mortalidad" class="form-control">
+                    @for(int i = 1;i < 11; i++)
+                    {
+                        <option value=@i.ToString()>@i</option>
+                    }
+                </select>
+                
+                
+                
+                
                 <span asp-validation-for="Mortalidad" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Contagio" class="control-label"></label>
-                <input asp-for="Contagio" class="form-control" />
+                <label asp-for="Contagio" class="control-label"></label><br>
+                <label>@Html.RadioButton("Contagio",1)1</label>
+                <label>@Html.RadioButton("Contagio",2)2</label>
+                <label>@Html.RadioButton("Contagio",3)3</label>
+                <label>@Html.RadioButton("Contagio",4)4</label>
+                <label>@Html.RadioButton("Contagio",5)5</label>
+                <label>@Html.RadioButton("Contagio",6)6</label>
+                <label>@Html.RadioButton("Contagio",7)7</label>
+                <label>@Html.RadioButton("Contagio",8)8</label>
+                <label>@Html.RadioButton("Contagio",9)9</label>
+                <label>@Html.RadioButton("Contagio",10)10</label>
                 <span asp-validation-for="Contagio" class="text-danger"></span>
             </div>
 
