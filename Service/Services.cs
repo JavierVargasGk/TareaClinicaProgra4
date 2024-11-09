@@ -46,4 +46,23 @@ public class Services:DbContext
         SaveChanges();
 
     }
+
+    public void EditVirus(Virus model)
+    {
+        if (model == null)
+        {
+            throw new Exception("Virus nuevo no encontrado");
+        }
+        var virusModificar = BuscarVirus(model.Id);
+        if (virusModificar == null)
+        {
+            throw new Exception("Virus no encontrado");
+        }
+        virusModificar.Contagio = model.Contagio;
+        virusModificar.Mortalidad = model.Mortalidad;
+        virusModificar.Peligrosidad = virusModificar.AsignarPeligrosidad(virusModificar.Mortalidad, model.Contagio);
+        virusModificar.Nombre = model.Nombre;
+        virusModificar.Fecha = model.Fecha;
+        SaveChanges();
+    }
 }

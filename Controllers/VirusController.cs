@@ -64,6 +64,26 @@ namespace TareaClinicaProgra4.Controllers
             }
             return View();
         }
+        [HttpGet]
+        public ActionResult Edit(int id)
+        {
+            var model = sv.BuscarVirus(id);
+            return View(model);
+        }
+        [HttpPost]
+        public ActionResult Edit(Virus model)
+        {
+            try
+            {
+                sv.EditVirus(model);
+                return RedirectToAction(nameof(Index));
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("kaput en edit" + e.Message);
+            }
+            return View();
+        }
 
     }
 }
